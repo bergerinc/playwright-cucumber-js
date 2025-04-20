@@ -1,0 +1,165 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;a-user-should-login-successfully",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "A user should login successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user is on the login page \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002501499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User provides a valid username \"student\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19310099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User provides a valid password \"Password123\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6820600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231855499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "A valid login message should appear \"Logged In Successfully\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132301000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;a-user-login-should-fail-with-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "A user login should fail with incorrect credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user is on the login page \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865689900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User provides a valid username \"incorrectUser\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14746500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User provides an incorrect password \"BadPassword\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8357400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19246099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "A error message should appear \"Your username is invalid!\"",
+            "match": {
+              "location": "file:\\C:\\Users\\bberg\\Source\\repos\\training\\playwright-cucumber-tests\\src\\tests\\steps\\login.step.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121977100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication Tests",
+    "tags": [],
+    "uri": "src\\tests\\features\\login.feature"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "default": {
+    "paths": ["src/tests/features/*.feature"],
+    "require": ["src/tests/steps/*.step.js"],
+    "dryRun": false,
+    "format": [
+      "summary",
+      "json:reports/report.json",
+      "html:reports/report.html"
+    ],
+    "formatOptions":{
+      "snippetInterface": "async-await"
+    }
+  }
+}
