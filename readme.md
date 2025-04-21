@@ -48,6 +48,14 @@ To install and set up the library, run:
 $ npm install
 ```
 
+If you see this error message, you will need to also run the command below:
+
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/1feafda1-85fa-4470-ac57-d6525bdcc4c3" />
+
+```sh
+$ npx playwright install
+```
+
 ## Usage
 
 ### Running the app
