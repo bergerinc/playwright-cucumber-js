@@ -10,6 +10,11 @@
     ],
     "formatOptions":{
       "snippetInterface": "async-await"
-    }
+    },
+    "worldParameters": {
+      "useAsync": true
+    },
+    "import": [],
+    "requireModule": []
   }
 }
